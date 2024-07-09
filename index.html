@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripInfo</title>
+    <!--Link to CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <!--Nav-->
+        <div class="nav container">
+            <!--Logo-->
+            <!--<a href="#" class="logo">Trip<span>Info</span></a>-->
+            <a href="#" class="logo"><span class="trip">Trip</span><span>Info</span></a>
+            <!--Login Button-->
+            <a href="#" class="login">Inicio</a>
+        </div>
+    </header>
+    <!--Home-->
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">Ciudades Internacionales</h2>
+            <span class="home-subtitle">Guia definitiva sobre turismo</span>
+        </div>
+    </section>
+    <!--PostFilter-->
+    <div class="post-filter container">
+        <span class="filter-item active-filter" data-filter='all'>Todos</span>
+        <span class="filter-item" data-filter='europa'>Europa</span>
+        <span class="filter-item" data-filter='asia'>Asia</span>
+        <span class="filter-item" data-filter='america'>America</span>
+    </div>
+    <!--Posts-->
+    <section class="post container">
+        <!--Post Box 1-->
+        <div class="post-box europa">
+            <img src="img/roma.jpg" alt="" class="post-img">
+            <h2 class="category">Europa</h2>
+            <a href="post-page.html" class="post-title">
+                Roma
+            </a>
+            <span class="post-date">23 MAY 2024</span>
+            <p class="post-description">Adéntrate en Roma, una ciudad que fusiona la grandeza del Imperio Romano con el
+                vibrante pulso de una metrópolis contemporánea, donde cada esquina respira historia, arte y una pasión
+                por la vida que cautiva a todos sus visitantes.</p>
+        
+            
+        </div>
+
+        <!--Post Box 2-->
+        <div class="post-box asia">
+            <img src="img/dubai.jpg" alt="" class="post-img">
+            <h2 class="category">Asia</h2>
+            <a href="post-page2.html" class="post-title">
+                Dubai
+            </a>
+            <span class="post-date">16 Jun 2024</span>
+            <p class="post-description">Descubre el espectacular mosaico de modernidad y tradición en Dubái, una ciudad
+                que deslumbra con sus imponentes rascacielos, oasis de lujo y una rica historia cultural. </p>
+           
+        </div>
+
+        <!--Post Box 3-->
+        <div class="post-box america">
+            <img src="img/prox.png" alt="" class="post-img">
+            <h2 class="category">America</h2>
+            <a href="post-page3.html" class="post-title">
+                Coming Soon
+            </a>
+            <span class="post-date"></span>
+            <p class="post-description"></p>
+           
+        </div>
+    </section>
+
+    <!--Footer-->
+    <div class="footer container">
+        <p>&#169; All rights reserved</p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-tiktok'></i></a>
+        </div>
+    </div>
+
+
+
+    <!--JQuery Link-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!--Link to JS-->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
